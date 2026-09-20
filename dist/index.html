@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="通过问卷答题记录构建能力推断模型，从基础模型出发，检查拟合、调整假设，并用独立数据检验。">
+  <meta name="theme-color" content="#142131">
+  <meta name="github-repository" content="">
+  <title>招聘实验室｜从问卷推断候选人能力</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23111c2a'/%3E%3Cpath d='M20 18h24M24 18v12L15 47c-2 4 1 7 6 7h22c5 0 8-3 6-7L40 30V18' fill='none' stroke='%2374ddca' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M23 43h18' stroke='%238ca9ff' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="workbench.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" id="homeBtn" aria-label="返回首页"><span class="brand-mark">HL</span><span>招聘实验室</span></button>
+    <div class="top-actions"><button class="ghost" id="scienceBtn">实验说明</button><button class="ghost" id="resetBtn">重新开始</button></div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <dialog id="modal"><button class="modal-close" aria-label="关闭">×</button><div id="modalBody"></div></dialog>
+  <noscript>本实验需要启用 JavaScript。</noscript>
+  <script src="community.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
