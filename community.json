@@ -1,10 +1,24 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T07:50:04.041Z",
+  "updatedAt": "2026-09-20T08:15:23.614Z",
   "repository": "skc-bio/hiring-model-lab",
   "source": "github-issues",
   "selfReported": true,
-  "entries": [],
-  "totalPlayers": 0,
+  "entries": [
+    {
+      "login": "Anon-Tokyo-qwq",
+      "nickname": "Anon-Tokyo-qwq",
+      "submittedAt": "2026-09-20T08:15:14.000Z",
+      "issueNumber": 1,
+      "issueUrl": "https://github.com/skc-bio/hiring-model-lab/issues/1",
+      "score": 87,
+      "firstCorrectCount": 6,
+      "correctedCount": 3,
+      "totalQuestions": 9,
+      "completedAt": "2026-09-20T08:13:10.998Z",
+      "rank": 1
+    }
+  ],
+  "totalPlayers": 1,
   "comments": []
 }
